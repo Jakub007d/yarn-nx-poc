@@ -21,59 +21,520 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": ".git/objects/b9/397df29c95e7de93eca9b815efbcae005ba77b",
+        "hash": "520951733770342612"
+      },
+      {
+        "file": ".git/objects/7a/36b1508fba02deb9620e8d301a06613f5cad36",
+        "hash": "14995881990758318028"
+      },
+      {
+        "file": ".git/objects/ac/b4fbcc4779c8f8250d17fc16678ff41941730b",
+        "hash": "10268952667872678047"
+      },
+      {
+        "file": ".nx/cache/run.json",
+        "hash": "14058718614021204250"
+      },
+      {
         "file": ".nx/workspace-data/project-graph.json",
-        "hash": "13538074198675032847"
+        "hash": "6355131536820093401"
+      },
+      {
+        "file": ".git/objects/85/51896cc57fa69441c5ea9a0e48bac7fb93ae01",
+        "hash": "5671398676982678194"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/9149487951724212029",
+        "hash": "8103987934847092546"
       },
       {
         "file": ".nx/workspace-data/source-maps.json",
-        "hash": "10579848076637960876"
+        "hash": "13142514365261346731"
       },
       {
-        "file": "package.json",
-        "hash": "16717781615614464239"
+        "file": ".nx/workspace-data/917050FD-E50E-5586-91F4-EFCAF88496A3.db",
+        "hash": "7944268259853009862"
       },
       {
-        "file": ".nx/workspace-data/d/server-process.json",
-        "hash": "1674707231783358597"
+        "file": ".git/objects/5b/3bbfc522710eef72145732bb5648e22dd46aaa",
+        "hash": "2476459782171035765"
       },
       {
-        "file": ".nx/workspace-data/file-map.json",
-        "hash": "11068119813779606358"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "16421289776784465842"
-      },
-      {
-        "file": ".nx/workspace-data/nx_files.nxt",
-        "hash": "10459202944235126245"
-      },
-      {
-        "file": ".nx/workspace-data/lockfile.hash",
-        "hash": "3230931867428104084"
+        "file": ".git/objects/95/6c6c8aa00f682e2d59f3ea1612896fe96c31d8",
+        "hash": "520631954350675127"
       },
       {
         "file": ".nx/workspace-data/tsc-2568428459166798129.hash",
         "hash": "1389868326933519382"
       },
       {
-        "file": ".git/index.lock",
-        "hash": "3244421341483603138"
+        "file": ".git/objects/6c/e4579e6f98df73201df0e92130f327f3618c75",
+        "hash": "7438076791984759651"
       },
       {
-        "file": "nx.json",
-        "hash": "86951418629438842"
+        "file": ".git/refs/remotes/origin/main",
+        "hash": "16014036727080730803"
       },
       {
-        "file": ".nx/workspace-data/parsed-lock-file.json",
-        "hash": "16381096631401564930"
+        "file": ".git/objects/c6/2d048aa1c0a13b8f31f816cb2a52346a8c0568",
+        "hash": "17821398635259690476"
+      },
+      {
+        "file": ".git/objects/bb/f3dfc40c497cf8762df7b41255ee1a5f8b684a",
+        "hash": "9801375174848267190"
+      },
+      {
+        "file": ".git/objects/7b/0b2644a9be4b27963cfba985eacb13c2edfedc",
+        "hash": "15472662675634559841"
+      },
+      {
+        "file": ".git/objects/60/4bd5bf0239abb52611b27771fc15acb1d89da1",
+        "hash": "10787059253830029274"
+      },
+      {
+        "file": ".nx/workspace-data/nx_files.nxt",
+        "hash": "9489963971844672595"
       },
       {
         "file": ".nx/workspace-data/tsconfig-files.hash",
         "hash": "4293857333309304781"
+      },
+      {
+        "file": ".git/objects/0f/71127979f9e6712a1b87ff6396e6b7a48285ef",
+        "hash": "12278621638355117308"
+      },
+      {
+        "file": ".nx/workspace-data/lockfile.hash",
+        "hash": "16153216974891204638"
+      },
+      {
+        "file": ".git/objects/71/6f047a295779384ca32b18696a49d24efee32f",
+        "hash": "7412864039649480981"
+      },
+      {
+        "file": ".git/objects/8d/c07413696cf55e4f0db173b84eae8545bbc062",
+        "hash": "11783382198318443303"
+      },
+      {
+        "file": ".git/objects/4d/289125bb273867beab15e3da31ba4da948c49b",
+        "hash": "5796178280009485510"
+      },
+      {
+        "file": ".git/objects/c6/dc6d8e82aa73d4074de10a74f920a395e5ced6",
+        "hash": "3646791846857594365"
+      },
+      {
+        "file": ".git/objects/a2/3584f6e17932d74dcfe095429e5f663ffd542a",
+        "hash": "13876129775075039761"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7026426234795706013"
+      },
+      {
+        "file": ".git/objects/f7/cab34f336a30e0857982b970ab93c0c1a0cdb5",
+        "hash": "13438368158227157787"
+      },
+      {
+        "file": ".git/objects/f2/78e76ea045487a6d678831799a8897f8e2775a",
+        "hash": "2393171453795124273"
+      },
+      {
+        "file": ".git/objects/58/0868ed05177c57f483acdbef1d1a7e2529761c",
+        "hash": "10791610261336642064"
+      },
+      {
+        "file": ".git/objects/48/3a0d30d1ccaa9a55cf74ccbc039ce035be135b",
+        "hash": "3867138677898486850"
+      },
+      {
+        "file": ".git/objects/89/98c64b03a28c875d07be9a7f98b613695064ed",
+        "hash": "13730022685317294486"
+      },
+      {
+        "file": ".git/objects/b8/tmp_obj_gb3TVX",
+        "hash": "13689427129670812717"
+      },
+      {
+        "file": ".nx/workspace-data/d/server-process.json",
+        "hash": "15424129086446131730"
+      },
+      {
+        "file": ".git/objects/80/e0a0f6985db23fe1fcdc38d22848473e97be43",
+        "hash": "2629360546519990312"
+      },
+      {
+        "file": ".git/objects/73/a51fd63d176cea12b16644a3a047afa1f3dd5c",
+        "hash": "16616252007969853180"
+      },
+      {
+        "file": ".git/objects/c5/fc8d2f1c98c9d597a46dfe48bc8a5997686359",
+        "hash": "10797643391427580385"
+      },
+      {
+        "file": ".git/objects/0c/c7780f9686b7d0cce98f52c7aebb362dbb082b",
+        "hash": "14317253105621602156"
+      },
+      {
+        "file": ".git/objects/fe/9b7a154a1277017444442ac6a4887b6582dc67",
+        "hash": "14753881462710405266"
+      },
+      {
+        "file": ".git/logs/refs/remotes/origin/main",
+        "hash": "17200526729368004395"
+      },
+      {
+        "file": ".git/objects/7b/b50b55dc1a7d5930a403091c161b99b4daa666",
+        "hash": "8703509561213944319"
+      },
+      {
+        "file": ".git/objects/36/3bf5c58bdd690d8bfdbd51a5511ac51eb7a493",
+        "hash": "14174943273131029661"
+      },
+      {
+        "file": ".git/objects/77/d09692a8051d3b81c301d994ae0aea955bfb17",
+        "hash": "10529692481849898194"
+      },
+      {
+        "file": "package.json",
+        "hash": "15711860802504002721"
+      },
+      {
+        "file": ".github/workflows/nx_release.yml",
+        "hash": "14783284404919339861"
+      },
+      {
+        "file": ".git/objects/aa/bc8bd651feb4d5c305b9599e37c948ac6302a2",
+        "hash": "9608950572812892744"
+      },
+      {
+        "file": ".git/objects/fa/85ff21599a7a7c7430d4ff18698805b1ce7b03",
+        "hash": "9213767531822378831"
+      },
+      {
+        "file": ".git/objects/d7/243362af56ccbe559a620d0702705cbb9b69a3",
+        "hash": "9588282897253893384"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "5389600818586484856"
+      },
+      {
+        "file": ".git/objects/7f/9d0cb66f89c2690bd9bdac14ceb8978c69d7fb",
+        "hash": "1734414065015673773"
+      },
+      {
+        "file": ".git/objects/7f/8d0e1b404ddfa530b0a25339f39d6bcb9cece9",
+        "hash": "10221190712945469132"
+      },
+      {
+        "file": ".git/objects/82/cd707f675ac07471efdc9b19368d273d430b7b",
+        "hash": "2309008716824458873"
+      },
+      {
+        "file": ".git/objects/f6/1f4e54dfb1eb43cfe7ddba099bfd3b4289536d",
+        "hash": "13133806719489515234"
+      },
+      {
+        "file": ".git/objects/23/83d81fb79052d7627e5bf19230e1174cc94d6b",
+        "hash": "3851632303997500383"
+      },
+      {
+        "file": ".git/objects/6c/63d4a49414ed012e4e653a7d7aa51749fe0c7d",
+        "hash": "9545974441923410427"
+      },
+      {
+        "file": ".git/objects/78/a5fbd05b8a08dfe817298c2a84f6aeab40978a",
+        "hash": "14194716198149971286"
+      },
+      {
+        "file": ".git/objects/3e/59b5956595d8fe0fbf73f9bee0d1ca63b8362f",
+        "hash": "3951033155876505501"
+      },
+      {
+        "file": ".git/objects/50/1875dad4cda48d7a95440cf54c39526c10f0a6",
+        "hash": "14658836914889522211"
+      },
+      {
+        "file": ".git/refs/heads/main",
+        "hash": "16014036727080730803"
+      },
+      {
+        "file": ".git/objects/3a/877a8072cadba32fdb54981a46dc2291dd701f",
+        "hash": "3665636154541331346"
+      },
+      {
+        "file": ".git/objects/28/8c06d5bd3e68e4324815e899408fb3ac4aebae",
+        "hash": "8785224893537809630"
+      },
+      {
+        "file": ".git/objects/e6/79cf2eef29177a569569e724effb9a410efca8",
+        "hash": "6673639694637544569"
+      },
+      {
+        "file": ".git/objects/fe/238d005d44a2d090f671128455252c976247d3",
+        "hash": "13286700775589439577"
+      },
+      {
+        "file": ".git/objects/c9/7a85d1bc2206d7c47447a56932fa6de283df0c",
+        "hash": "11107744600766192139"
+      },
+      {
+        "file": ".git/index",
+        "hash": "11780159717471676701"
+      },
+      {
+        "file": ".git/objects/7e/f046353d42355e54b35294aeae4646564bade6",
+        "hash": "8922684761585767419"
+      },
+      {
+        "file": ".git/objects/ee/a94fe0997f050552b6db89f88646255b5197f8",
+        "hash": "14717892489357935584"
+      },
+      {
+        "file": ".git/objects/6e/421c48e60eacee71d54315c0b9f8e82dc78d95",
+        "hash": "3581562671048072726"
+      },
+      {
+        "file": ".git/objects/8b/97855400257ad517550d6329f66c130f9aa025",
+        "hash": "6202695553499219552"
+      },
+      {
+        "file": ".git/objects/49/d19ae1d3f3a07eb10bac60bb551e27092f188a",
+        "hash": "14887207015798235740"
+      },
+      {
+        "file": ".git/objects/04/ba2d798070e7bce3c861b4ab326b3e0d1babb9",
+        "hash": "18283360988407748718"
+      },
+      {
+        "file": ".git/objects/63/665f76e60b6ab6a580e9aec23daabc05c2fe15",
+        "hash": "8863603550785941615"
+      },
+      {
+        "file": ".git/objects/9d/ae50cf94ea6e5178eb86752d44213f7fefc17b",
+        "hash": "9812934386016428546"
+      },
+      {
+        "file": ".git/objects/66/d55c89a757d37c8444492fe824c5d498cb28b0",
+        "hash": "7126396786308731227"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/13648031372568947725",
+        "hash": "16522610598590280481"
+      },
+      {
+        "file": ".git/objects/3f/9ee24cda010343be98be0429d5a6bdbd854fbc",
+        "hash": "3347720219556758867"
+      },
+      {
+        "file": ".git/objects/c0/9d0198df697f16af03754eb5c16f941afd7846",
+        "hash": "17332180184666727786"
+      },
+      {
+        "file": ".git/objects/a8/3e0c8bbfbe9df5c22677678be78cc7ac69fc8a",
+        "hash": "16128779330588098491"
+      },
+      {
+        "file": ".git/objects/0f/16aa1c36adfafa1fddd4a7a92e5197e3f333af",
+        "hash": "12923803752816305502"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/4310836472514795052",
+        "hash": "17205340302944974281"
+      },
+      {
+        "file": ".git/objects/44/8818df44e583f71365066d043caec640255397",
+        "hash": "3257299717669293850"
+      },
+      {
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "8304635863639164330"
+      },
+      {
+        "file": ".git/objects/42/27c5aefb0341747c3b68aad41e85f9bdec218d",
+        "hash": "14910136159527128442"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/3703561878590297279",
+        "hash": "3591346798808895926"
+      },
+      {
+        "file": ".git/logs/refs/heads/main",
+        "hash": "14065295191378974131"
+      },
+      {
+        "file": ".git/objects/4e/6b98ea02b91cc365b1ba36fa4d83f8d1e1f16e",
+        "hash": "3759509300127333767"
+      },
+      {
+        "file": ".git/objects/d4/5e7e93de070e3d8908ce450d206cdb47ecccf7",
+        "hash": "868951725061516824"
+      },
+      {
+        "file": ".git/objects/0f/e902b3580ef4a55fdd4dc8a1ffa3c58d3c527f",
+        "hash": "11203845124698296191"
+      },
+      {
+        "file": ".git/objects/68/15c068790e48def3033481c74ceb8d75fe0dc7",
+        "hash": "7171347921081086371"
+      },
+      {
+        "file": ".git/index.lock",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".git/objects/b0/0c5cd163d6d105055f5d1698f439f3ae5a3c41",
+        "hash": "16378387457992983421"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/2147851185035147844",
+        "hash": "13657365488456543100"
+      },
+      {
+        "file": ".git/objects/04/0092c92f14991f47d78f0700d68a9384308ffb",
+        "hash": "1167255837566598471"
+      },
+      {
+        "file": ".git/objects/a6/7e305f9c62393961e0d452297f34d66ba60a62",
+        "hash": "14195673124988837874"
+      },
+      {
+        "file": ".git/objects/11/e30b1f5efbd6ee911226c0fec50c7172aaf14a",
+        "hash": "2382289141647839735"
+      },
+      {
+        "file": ".git/objects/b4/0dec1dba3c6cf4fe6c8455e51dc73f7d30308a",
+        "hash": "15312629575200262640"
+      },
+      {
+        "file": ".git/objects/7a/c0412d95c5fd3a9f5de3794875dab0f2981f2d",
+        "hash": "2526042449746420559"
+      },
+      {
+        "file": ".git/objects/4f/d94c565a7813a2c991d8c52235d10ec0db5651",
+        "hash": "3210217388162556481"
+      },
+      {
+        "file": ".git/objects/7e/e7c113a09428e4daafacb6e70a35d18573e608",
+        "hash": "15442356849741348152"
+      },
+      {
+        "file": ".git/COMMIT_EDITMSG",
+        "hash": "3300902190746536191"
+      },
+      {
+        "file": ".git/objects/e8/31f9322a7a106ae81c6d62ca92abf500aa91a9",
+        "hash": "5163509862665142508"
+      },
+      {
+        "file": ".git/objects/88/cb47fa9a538c03b1cae5f13b736e83ac5ec81e",
+        "hash": "10135957000084957129"
+      },
+      {
+        "file": ".git/objects/90/1cbfe5408fae8305a061b9b43d9f44c5de58d0",
+        "hash": "4343214497461537172"
+      },
+      {
+        "file": ".git/objects/54/8dc46a03c383f140c33836c5b13104c67c0af4",
+        "hash": "17350495322132985853"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4048759625970908146"
+      },
+      {
+        "file": ".git/objects/c8/ab054951d78799d1b24074be09e18fec85ead0",
+        "hash": "3675828876850419991"
+      },
+      {
+        "file": ".git/objects/32/92c1e30882ad775916c5b6d64a3f1363cc53e5",
+        "hash": "10088875851527675867"
+      },
+      {
+        "file": ".git/objects/ad/f386afb95f2cf7a471cc006128b89b76c26f6c",
+        "hash": "16461055731101567996"
+      },
+      {
+        "file": ".git/objects/f5/b1f09ecb4b4c5b865114c3e6035d65c5994534",
+        "hash": "15501765810955650351"
+      },
+      {
+        "file": ".git/objects/e6/8f6ecd31ff783d9a90d81bf77c5baf32a1149d",
+        "hash": "18036329714784751646"
+      },
+      {
+        "file": ".git/objects/af/977388aac89566184d5052061e6527304ec8d3",
+        "hash": "9762957898249722479"
+      },
+      {
+        "file": ".git/objects/55/7aa0e0bbc9281e763cbf11fba213e590449f29",
+        "hash": "8719955137898978710"
+      },
+      {
+        "file": ".git/objects/1a/c4a079fb322b897166e62772607fa51dd52dfc",
+        "hash": "1285463928591258039"
+      },
+      {
+        "file": ".git/logs/HEAD",
+        "hash": "13920901049529636507"
       }
     ],
     "projectFileMap": {
+      "@jakub007d/p3": [
+        {
+          "file": "packages/p3/index.js",
+          "hash": "4985853422860330792"
+        },
+        {
+          "file": "packages/p3/package.json",
+          "hash": "13734011236131763337"
+        },
+        {
+          "file": "packages/p3/project.json",
+          "hash": "1012048538037169863"
+        }
+      ],
+      "@jakub007d/p1": [
+        {
+          "file": "packages/p1/REDME.md",
+          "hash": "4794957019204198018"
+        },
+        {
+          "file": "packages/p1/index.js",
+          "hash": "18305553200507162372"
+        },
+        {
+          "file": "packages/p1/package.json",
+          "hash": "7897124790032391780",
+          "deps": [
+            "@jakub007d/p3"
+          ]
+        },
+        {
+          "file": "packages/p1/project.json",
+          "hash": "15173062131154241443"
+        }
+      ],
+      "@jakub007d/p2": [
+        {
+          "file": "packages/p2/REDME.md",
+          "hash": "18418183020605765232"
+        },
+        {
+          "file": "packages/p2/index.js",
+          "hash": "11842490911772508628"
+        },
+        {
+          "file": "packages/p2/package.json",
+          "hash": "15321595014386718415"
+        },
+        {
+          "file": "packages/p2/project.json",
+          "hash": "8271334344109555071"
+        }
+      ],
       "main-app": [
         {
           "file": "apps/main.js",
@@ -81,51 +542,17 @@
         },
         {
           "file": "apps/package.json",
-          "hash": "3839328786725325505",
+          "hash": "14172051179369191832",
           "deps": [
-            "p2"
+            "@jakub007d/p2"
           ]
         },
         {
           "file": "apps/project.json",
           "hash": "13526795331849761268"
         }
-      ],
-      "p1": [
-        {
-          "file": "packages/p1/index.js",
-          "hash": "5270580800293392237"
-        },
-        {
-          "file": "packages/p1/package.json",
-          "hash": "14165574144492044250"
-        }
-      ],
-      "p3": [
-        {
-          "file": "packages/p3/index.js",
-          "hash": "4985853422860330792"
-        },
-        {
-          "file": "packages/p3/package.json",
-          "hash": "11286970356972003321"
-        }
-      ],
-      "p2": [
-        {
-          "file": "packages/p2/index.js",
-          "hash": "11842490911772508628"
-        },
-        {
-          "file": "packages/p2/package.json",
-          "hash": "8517433401930082129",
-          "deps": [
-            "p1",
-            "p3"
-          ]
-        }
       ]
     }
   },
-  "externalNodesHash": "7854033944022221813"
+  "externalNodesHash": "1486399494530793338"
 }

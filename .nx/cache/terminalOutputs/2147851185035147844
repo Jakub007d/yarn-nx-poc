@@ -1,0 +1,18 @@
+
+📦  main-app@X.X.X-dry-run
+[35m=== Tarball Contents ===[39m
+
+53B  main.js     
+106B package.json
+242B project.json
+[35m=== Tarball Details ===[39m
+name:          main-app                                
+version:       X.X.X-dry-run                           
+filename:      main-app-X.X.X-dry-run.tgz              
+package size:  354 B                                   
+unpacked size: 401 B                                   
+shasum:        3281fb35bbb8efc98bc1158e0cea3cfe9e742d4d
+integrity:     sha512-/RSr7lODRMZb0[...]OL2ToS0sUIBXw==
+total files:   3                                       
+ 
+Would publish to https://registry.npmjs.org/ with tag "latest", but [38;2;255;165;0m[dry-run][39m was set

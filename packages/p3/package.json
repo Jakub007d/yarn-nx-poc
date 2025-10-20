@@ -1,5 +1,5 @@
 {
-  "name": "p3",
+  "name": "@jakub007d/p3",
   "version": "1.0.0",
   "description": "divs",
   "keywords": [
@@ -19,5 +19,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

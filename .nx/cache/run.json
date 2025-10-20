@@ -1,0 +1,54 @@
+{
+  "run": {
+    "command": "nx release publish --first-release --dry-run",
+    "startTime": "2025-10-21T08:40:15.329Z",
+    "endTime": "2025-10-21T08:40:19.113Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@jakub007d/p2:nx-release-publish",
+      "target": "nx-release-publish",
+      "projectName": "@jakub007d/p2",
+      "hash": "13648031372568947725",
+      "startTime": "2025-10-21T08:40:15.361Z",
+      "endTime": "2025-10-21T08:40:17.295Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@jakub007d/p3:nx-release-publish",
+      "target": "nx-release-publish",
+      "projectName": "@jakub007d/p3",
+      "hash": "9149487951724212029",
+      "startTime": "2025-10-21T08:40:15.361Z",
+      "endTime": "2025-10-21T08:40:17.367Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@jakub007d/p1:nx-release-publish",
+      "target": "nx-release-publish",
+      "projectName": "@jakub007d/p1",
+      "hash": "3703561878590297279",
+      "startTime": "2025-10-21T08:40:15.361Z",
+      "endTime": "2025-10-21T08:40:17.375Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "main-app:nx-release-publish",
+      "target": "nx-release-publish",
+      "projectName": "main-app",
+      "hash": "4310836472514795052",
+      "startTime": "2025-10-21T08:40:17.296Z",
+      "endTime": "2025-10-21T08:40:19.112Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

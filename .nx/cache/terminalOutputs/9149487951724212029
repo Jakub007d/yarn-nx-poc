@@ -1,0 +1,18 @@
+
+📦  @jakub007d/p3@X.X.X-dry-run
+[35m=== Tarball Contents ===[39m
+
+64B  index.js    
+523B package.json
+244B project.json
+[35m=== Tarball Details ===[39m
+name:          @jakub007d/p3                           
+version:       X.X.X-dry-run                           
+filename:      jakub007d-p3-X.X.X-dry-run.tgz          
+package size:  562 B                                   
+unpacked size: 831 B                                   
+shasum:        acc34b152eba2e36d1e50364e8b5123a7f58ea49
+integrity:     sha512-pykhFrYeGl/TC[...]VuuHG+htO0zxA==
+total files:   3                                       
+ 
+Would publish to https://registry.npmjs.org/ with tag "latest", but [38;2;255;165;0m[dry-run][39m was set

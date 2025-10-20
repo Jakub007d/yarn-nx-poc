@@ -1,5 +1,5 @@
 {
-  "name": "p1",
+  "name": "@jakub007d/p1",
   "version": "1.0.0",
   "description": "adding 2 numbers",
   "keywords": [
@@ -21,7 +21,9 @@
     "test": "none"
   },
   "dependencies": {
-    "p1": "*",
-    "p3": "*"
+    "@jakub007d/p3": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

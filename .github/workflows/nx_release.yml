@@ -20,11 +20,19 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # Or your project's Node.js version
-          cache: 'npm' # Or yarn, pnpm
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'package-lock.json'
+          registry-url: 'https://registry.npmjs.org'
 
       - name: 📦 Install dependencies
-        run: npm ci # Or yarn install --frozen-lockfile, pnpm install --frozen-lockfile
+        run: |
+          echo "Starting npm ci at $(date)"
+          npm config set fetch-timeout 60000
+          npm config set fetch-retry-mintimeout 10000
+          npm config set fetch-retry-maxtimeout 60000
+          npm ci --prefer-offline --no-audit --verbose
+          echo "Completed npm ci at $(date)"
 
       - name: 👤 Configure Git
         run: |
@@ -32,9 +40,19 @@ jobs:
           git config user.email "email@fake.ur"
 
       - name: 🚀 Run Nx Release
-        run: npx nx release
+        run: |
+          echo "NPM_TOKEN is set: $([[ -n "$NPM_TOKEN" ]] && echo "yes" || echo "no")"
+          npm whoami || echo "npm authentication failed"
+          npx nx release --first-release --verbose || {
+            echo "Release failed, checking npm config..."
+            npm config list
+            echo "Trying dry-run to see what would be published..."
+            npx nx release publish --first-release --dry-run
+            exit 1
+          }
         env:
           # Token for publishing to npm
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           # The same token used for checkout to push to GitHub
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

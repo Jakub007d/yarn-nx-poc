@@ -1,0 +1,19 @@
+
+📦  @jakub007d/p1@X.X.X-dry-run
+[35m=== Tarball Contents ===[39m
+
+5B   REDME.md    
+63B  index.js    
+546B package.json
+243B project.json
+[35m=== Tarball Details ===[39m
+name:          @jakub007d/p1                           
+version:       X.X.X-dry-run                           
+filename:      jakub007d-p1-X.X.X-dry-run.tgz          
+package size:  599 B                                   
+unpacked size: 857 B                                   
+shasum:        f3ca3184efeb1c88f7754b5e086ee6dcbbe0d0c0
+integrity:     sha512-XHcregJdAhqMl[...]NO/hogRwQpTeg==
+total files:   4                                       
+ 
+Would publish to https://registry.npmjs.org/ with tag "latest", but [38;2;255;165;0m[dry-run][39m was set

@@ -1,8 +1,11 @@
 {
-  "name": "main-app",
+  "name": "@jakub007d/main-app",
   "version": "1.0.0",
   "main": "main.js",
   "dependencies": {
-    "p2": "*"
+    "@jakub007d/p2": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

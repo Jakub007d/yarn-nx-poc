@@ -1,10 +1,16 @@
 {
   "release": {
+    "changelog": {
+      "workspaceChangelog": {
+        "createRelease": "github"
+      }
+    },
     "projects": [
       "*"
     ],
     "version": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "fallbackCurrentVersionResolver": "disk"
     }
   },
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
