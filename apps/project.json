@@ -1,0 +1,14 @@
+{
+  "name": "main-app",
+  "sourceRoot": "apps",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node main.js",
+        "cwd": "apps"
+      }
+    }
+  }
+}

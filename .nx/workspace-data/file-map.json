@@ -1,0 +1,131 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.6.5",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json",
+          "buildDepsName": "build-deps",
+          "watchDepsName": "watch-deps"
+        }
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "13538074198675032847"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "10579848076637960876"
+      },
+      {
+        "file": "package.json",
+        "hash": "16717781615614464239"
+      },
+      {
+        "file": ".nx/workspace-data/d/server-process.json",
+        "hash": "1674707231783358597"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "11068119813779606358"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "16421289776784465842"
+      },
+      {
+        "file": ".nx/workspace-data/nx_files.nxt",
+        "hash": "10459202944235126245"
+      },
+      {
+        "file": ".nx/workspace-data/lockfile.hash",
+        "hash": "3230931867428104084"
+      },
+      {
+        "file": ".nx/workspace-data/tsc-2568428459166798129.hash",
+        "hash": "1389868326933519382"
+      },
+      {
+        "file": ".git/index.lock",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "nx.json",
+        "hash": "86951418629438842"
+      },
+      {
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "16381096631401564930"
+      },
+      {
+        "file": ".nx/workspace-data/tsconfig-files.hash",
+        "hash": "4293857333309304781"
+      }
+    ],
+    "projectFileMap": {
+      "main-app": [
+        {
+          "file": "apps/main.js",
+          "hash": "10839209958849099431"
+        },
+        {
+          "file": "apps/package.json",
+          "hash": "3839328786725325505",
+          "deps": [
+            "p2"
+          ]
+        },
+        {
+          "file": "apps/project.json",
+          "hash": "13526795331849761268"
+        }
+      ],
+      "p1": [
+        {
+          "file": "packages/p1/index.js",
+          "hash": "5270580800293392237"
+        },
+        {
+          "file": "packages/p1/package.json",
+          "hash": "14165574144492044250"
+        }
+      ],
+      "p3": [
+        {
+          "file": "packages/p3/index.js",
+          "hash": "4985853422860330792"
+        },
+        {
+          "file": "packages/p3/package.json",
+          "hash": "11286970356972003321"
+        }
+      ],
+      "p2": [
+        {
+          "file": "packages/p2/index.js",
+          "hash": "11842490911772508628"
+        },
+        {
+          "file": "packages/p2/package.json",
+          "hash": "8517433401930082129",
+          "deps": [
+            "p1",
+            "p3"
+          ]
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "7854033944022221813"
+}

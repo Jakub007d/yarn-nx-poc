@@ -1,0 +1,27 @@
+{
+  "name": "p1",
+  "version": "1.0.0",
+  "description": "adding 2 numbers",
+  "keywords": [
+    "test"
+  ],
+  "homepage": "https://github.com/Jakub007d/yarn-nx-poc#readme",
+  "bugs": {
+    "url": "https://github.com/Jakub007d/yarn-nx-poc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jakub007d/yarn-nx-poc.git"
+  },
+  "license": "ISC",
+  "author": "jakub007d",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "dependencies": {
+    "p1": "*",
+    "p3": "*"
+  }
+}
