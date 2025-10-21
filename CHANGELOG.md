@@ -1,3 +1,13 @@
+## 1.2.0 (2025-10-21)
+
+### 🚀 Features
+
+- lojzo ([ec66b00](https://github.com/Jakub007d/yarn-nx-poc/commit/ec66b00))
+
+### ❤️ Thank You
+
+- Jakub007d
+
 ## 1.1.0 (2025-10-21)
 
 ### 🚀 Features
