@@ -1,9 +1,9 @@
 {
   "name": "@jakub007d/main-app",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "main.js",
   "dependencies": {
-    "@jakub007d/p2": "*"
+    "@jakub007d/p2": "1.1.0"
   },
   "publishConfig": {
     "access": "public"
