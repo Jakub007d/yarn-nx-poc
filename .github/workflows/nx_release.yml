@@ -31,7 +31,7 @@ jobs:
           npm config set fetch-timeout 60000
           npm config set fetch-retry-mintimeout 10000
           npm config set fetch-retry-maxtimeout 60000
-          npm ci --prefer-offline --no-audit --verbose
+          npm ci --prefer-offline --no-audit --verbose --yes
           echo "Completed npm ci at $(date)"
 
       - name: 👤 Configure Git
