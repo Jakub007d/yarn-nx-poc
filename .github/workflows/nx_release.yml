@@ -41,15 +41,7 @@ jobs:
 
       - name: 🚀 Run Nx Release
         run: |
-          echo "NPM_TOKEN is set: $([[ -n "$NPM_TOKEN" ]] && echo "yes" || echo "no")"
-          npm whoami || echo "npm authentication failed"
-          npx nx release --first-release --verbose || {
-            echo "Release failed, checking npm config..."
-            npm config list
-            echo "Trying dry-run to see what would be published..."
-            npx nx release publish --first-release --dry-run
-            exit 1
-          }
+          npx nx release --first-release --verbose
         env:
           # Token for publishing to npm
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

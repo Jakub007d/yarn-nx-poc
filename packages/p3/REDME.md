@@ -1,0 +1,1 @@
+Aj Sem nieco dam 
