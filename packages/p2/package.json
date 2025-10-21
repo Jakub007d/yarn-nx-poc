@@ -20,6 +20,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@jakub007d/p1": "1.2.0",
+    "@jakub007d/p3": "1.2.0"
+  },
   "publishConfig": {
     "access": "public"
   }
